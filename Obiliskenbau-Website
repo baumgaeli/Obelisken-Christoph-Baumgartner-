@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Kontaktseite</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      background: url("hintergrund.jpg") no-repeat center center fixed;
+      background-size: contain;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    .box {
+      position: absolute;
+      left: 50%;                 /* horizontal zentrieren */
+      top: 80%;                  
+      transform: translate(-50%, -50%); /* genau zentriert */      
+      background: rgba(0, 0, 0, 0.6);
+      padding: 15px 25px;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+      max-width: 300px
+    }
+    h1 {
+      margin-bottom: 8px;
+      font-size: 1.5em;
+    }
+    p {
+      margin: 6px 0;
+      font-size: 1em;
+    }
+    a {
+      color: #ffd700;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h1>Christoph Baumgartner</h1>
+    <p> Telefon: <a href="tel:+4368181323014">+43 681 81323014</a></p>
+    <p> E-Mail: <a href="mailto:cbaumgartner21@gmail.com">cbaumgartner21@gmail.com</a></p>
+  </div>
+</body>
+</html>
